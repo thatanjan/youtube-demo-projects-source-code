@@ -1,0 +1,36 @@
+@media only screen and (max-width: 600px) {
+	.content_container {
+		top: 55%;
+	}
+
+	.content_container .album_title {
+		font-size: 7rem;
+		margin-bottom: -2rem;
+	}
+
+	.content_container .subtitle {
+		font-size: 3rem;
+		margin-bottom: 2rem;
+	}
+
+	.content_container .available {
+		font-size: 1.5rem;
+	}
+
+	.order_button {
+		padding: 0.8rem;
+		font-size: 1.3rem;
+	}
+
+	.nav_link {
+		font-size: 2rem;
+	}
+
+	.nav_link:hover {
+		font-size: 2.5rem;
+	}
+
+	.header {
+		padding: 0 5%;
+	}
+}

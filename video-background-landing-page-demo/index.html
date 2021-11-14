@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<title>Taylor Swift</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="content.css" />
+		<link rel="stylesheet" href="navbar.css" />
+		<link rel="stylesheet" href="responsive.css" />
+	</head>
+	<body>
+		<header class="header">
+			<h1>Taylor Swift</h1>
+			<div class="hamburger"></div>
+		</header>
+
+		<nav class="navigation">
+			<ul>
+				<li><a class="nav_link" href="#">Home</a></li>
+				<li><a class="nav_link" href="#">Gallery</a></li>
+				<li><a class="nav_link" href="#">Music</a></li>
+				<li><a class="nav_link" href="#">About</a></li>
+				<li><a class="nav_link" href="#">Contact</a></li>
+			</ul>
+		</nav>
+
+		<section class="video_container">
+			<video
+				autoplay
+				loop
+				muted
+				src="./media/background.mp4"
+				type="video/mp4"
+			></video>
+			<div class="overlay"></div>
+			<section class="content_container">
+				<h1 class="album_title">RED</h1>
+				<h3 class="subtitle">Taylor's Version</h3>
+				<div class="available">Available now</div>
+				<button class="order_button">Order Now</button>
+			</section>
+		</section>
+		<script src="index.js"></script>
+	</body>
+</html>
