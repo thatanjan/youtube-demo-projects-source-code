@@ -1,0 +1,48 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.parent {
+	height: 800px;
+	background: red;
+
+	/* 1. center with grid */
+
+	/* display: grid; */
+	/* justify-items: center; */
+	/* align-items: center; */
+	/* place-items: center; */
+
+	/* 2. center with flexbox */
+
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
+
+	/* 3. vertically center using padding */
+	/* padding: 100px 0; */
+
+	/* 5. center using position */
+	position: relative;
+}
+
+.children {
+	height: 50%;
+	width: 50%;
+	background: cyan;
+
+	/* 4. horizontally center with margin */
+	/* margin: 0 auto; */
+
+	/* 5. center using position */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.text {
+	text-align: center;
+}
