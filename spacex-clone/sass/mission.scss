@@ -42,7 +42,6 @@
 	}
 
 	.bottom__content {
-		// background: red;
 		position: absolute;
 		bottom: 10%;
 		left: 1.5rem;
@@ -50,6 +49,9 @@
 		overflow: hidden;
 		color: white;
 		max-width: 500px;
+		transition: opacity 1s, transform 1s;
+		transform: translateY(200%);
+		opacity: 0;
 
 		.bottom__content__header {
 			font-size: 2rem;
@@ -104,6 +106,13 @@
 					transform-origin: bottom center;
 				}
 			}
+		}
+	}
+
+	&.on__screen {
+		.bottom__content {
+			opacity: 1;
+			transform: translateY(0);
 		}
 	}
 }
