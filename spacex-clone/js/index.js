@@ -12,7 +12,7 @@ const hamburger = document.querySelector('.hamburger')
 const missions = document.querySelectorAll('.mission__container')
 const footer = document.querySelector('.footer')
 
-const IS_ACTIVE = 'is_active'
+const IS_ACTIVE = 'is-active'
 
 hamburger.addEventListener('click', () => {
 	hamburger.classList.toggle(IS_ACTIVE)
