@@ -62,13 +62,12 @@ window.onscroll = () => {
 	}
 
 	if (prevScrollpos > currentScrollPos) {
-		header.setAttribute('id', HIDING)
 		header.classList.add(SHOW)
-
+	} else {
+		header.setAttribute('id', HIDING)
 		setTimeout(() => {
 			header.removeAttribute('id')
-		}, 500)
-	} else {
+		}, 600)
 		header.classList.remove(SHOW)
 	}
 	prevScrollpos = currentScrollPos
